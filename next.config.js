@@ -5,10 +5,7 @@ const withNextIntl = require("next-intl/plugin")(
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  devIndicators: {
-    buildActivity: false,
-    position: 'bottom-right'
-  },
+
   images: {
     domains: [
       "localhost",
