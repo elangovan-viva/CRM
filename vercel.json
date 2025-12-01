@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "npm rebuild bcrypt --build-from-source && next build"
+  },
+  "resolutions": {
+    "bcrypt": "5.1.1"
+  },
   "crons": [
     {
       "path": "/api/cron/demo",
