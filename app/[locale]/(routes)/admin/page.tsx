@@ -39,8 +39,8 @@ const AdminPage = async () => {
         </Button>
       </div>
       <div className="flex flex-row flex-wrap space-y-2 md:space-y-0 gap-2">
-        <GptCard />
-        <ResendCard />
+        {/*<GptCard />*/}
+        {/*<ResendCard />*/}
         <OpenAiCard />
       </div>
     </Container>
